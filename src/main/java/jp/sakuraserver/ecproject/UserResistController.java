@@ -13,6 +13,7 @@ public class UserResistController {
     @RequestMapping("/resistUser")
     public String ResistUser(){
         String test = userResistService.test();
+        userResistService.write();
         return "resistUser";
     }
 }
