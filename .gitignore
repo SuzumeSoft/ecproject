@@ -11,7 +11,6 @@ target/
 
 ### IntelliJ IDEA ###
 *.iws
-*.iml
 *.ipr
 
 ### NetBeans ###
